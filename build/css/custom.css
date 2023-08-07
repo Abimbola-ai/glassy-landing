@@ -1,0 +1,37 @@
+body{
+    background: url(https://source.unsplash.com/nEczFlV-GMI);
+    font-family: 'Lato', sans-serif;
+}
+
+li a , .message{
+    color: #2b2862;
+}
+
+ul li button {
+    background-color: #2b2862;
+}
+
+.sign-up:hover {
+    background-color: #6a71f9;
+}
+
+.logo, h3, p {
+    color: #2b2862;
+}
+
+select, .more-info {
+    color: #6a71f9;
+}
+
+.more-info {
+    border-color: #e7e7fd;
+}
+
+.more-info:hover {
+    border-color: #6a71f9;
+}
+
+@media screen (max-width: 600px) {
+    
+    
+}
