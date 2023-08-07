@@ -11,12 +11,20 @@ ul li button {
     background-color: #2b2862;
 }
 
+.sign-up{
+    background-color: #2b2862;
+}
+
 .sign-up:hover {
     background-color: #6a71f9;
 }
 
 .logo, h3, p {
     color: #2b2862;
+}
+
+.logo {
+    font-size: 50px;
 }
 
 select, .more-info {
