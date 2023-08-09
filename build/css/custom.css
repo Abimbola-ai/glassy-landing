@@ -1,5 +1,7 @@
 body{
     background: url(https://source.unsplash.com/nEczFlV-GMI);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Lato', sans-serif;
 }
 
@@ -24,7 +26,7 @@ ul li button {
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 select, .more-info {
@@ -39,7 +41,16 @@ select, .more-info {
     border-color: #6a71f9;
 }
 
-@media screen (max-width: 600px) {
+@media screen and (min-width: 1024px) {
+    .logo {
+        font-size: 50px;
+    }
     
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        font-size: 40px;
+    }
     
 }
